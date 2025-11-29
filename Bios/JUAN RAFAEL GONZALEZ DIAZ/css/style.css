@@ -21,6 +21,94 @@
     justify-content: center;
 }
 
+#contenido-bio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bio-jrgd{
+    background-color: rgb(175, 198, 233);
+    padding: 0.75rem 2rem;
+    width: 85%;
+    border: 20px solid rgb(30, 67, 136);
+    border-radius: 14px;
+    margin: 5%;
+}
+
+nav{
+    background-color: rgb(9, 23, 49);
+    padding: 1.75rem 0 0.75rem;
+    margin-bottom: 2rem;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+li{
+    min-width: 17rem;
+}
+
+a{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a{
+    background-color: rgb(221, 241, 245);
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    color: rgb(9, 23, 49);
+    text-decoration: none;
+}
+
+nav a:hover{
+    margin: 0;
+    background-color: rgb(94, 155, 245);
+    padding: 1.25rem 4rem;
+}
+
+.boton-galeria{
+    border-radius: 14px;
+    display: flex;
+}
+
+.boton-galeria a{
+    background-color: rgb(37, 37, 65);
+    color: rgb(235, 235, 235);
+    border: 3px solid rgb(37, 37, 65);
+    border-radius: 14px;
+    margin: auto;
+    padding: 0.75rem 1rem;
+}
+
+.boton-galeria a:hover{
+    background-color: rgb(235, 235, 235);
+    color: rgb(37, 37, 65);
+}
+
+#adv{
+    margin: 1.75% 0 -1.5%;
+}
+
+.secciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafous{
+    background-color: rgb(221, 241, 245);
+    padding: 3%;
+    border: 7px solid rgb(30, 67, 136);
+    border-radius: 14px;
+}
+
 .recuadro{
     margin: auto;
     background-color: rgb(175, 198, 233);
@@ -34,7 +122,7 @@
     justify-content: center;
 }
 
-#nombre{
+.texto_hf{
     color: rgb(1, 0, 22);
 }
 
