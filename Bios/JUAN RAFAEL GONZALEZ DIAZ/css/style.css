@@ -123,6 +123,21 @@ p{
     color: rgb(1, 0, 22);
 }
 
+#espacio{
+    width: 40%;
+    height: 130px;
+    background-color: rgb(9, 23, 49);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#espacio a{
+    
+}
+
 #ff{
     margin-top: auto;
     background-color: rgb(30, 67, 136);
