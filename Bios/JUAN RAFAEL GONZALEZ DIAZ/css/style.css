@@ -36,10 +36,13 @@ body{
 .bio-jrgd{
     background-color: rgb(175, 198, 233);
     padding: 0.75rem 2rem;
-    width: 85%;
     border: 20px solid rgb(30, 67, 136);
     border-radius: 14px;
     margin: 5%;
+}
+
+.partes{
+    width: 85%;
 }
 
 nav{
@@ -55,17 +58,19 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     list-style-type: none;
-    margin: 0 0 1rem 2rem;
+    margin: 0 0 1rem 5rem;
 }
 
 li{
-    margin: 1rem 0;
+    margin: 1.25rem -2rem;
+    width: 18rem;
     min-width: 17rem;
 }
 
 a{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 nav a{
@@ -108,13 +113,8 @@ nav a:hover{
     margin: 1.75% 0 -1.5%;
 }
 
-.secciones{
-    display: flex;
-    justify-content: space-between;
-}
-
-.secciones h2{
-    margin-top: 3%;
+.h2s{
+    margin-top: 2%;
     font-size: 30px;
 }
 
