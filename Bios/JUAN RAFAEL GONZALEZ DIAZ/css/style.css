@@ -68,7 +68,7 @@ li{
 }
 
 a{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -76,8 +76,8 @@ a{
 nav a{
     background-color: rgb(221, 241, 245);
     margin: 1rem;
-    border: 5px solid rgb(54, 92, 161);
-    border-radius: 20px;
+    border: 6px solid rgb(54, 92, 161);
+    border-radius: 25px;
     padding: 0.75rem 2.25rem;
     color: rgb(9, 23, 49);
     text-decoration: none;
@@ -90,32 +90,13 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.boton-galeria{
-    border-radius: 14px;
-    display: flex;
-}
-
-.boton-galeria a{
-    background-color: rgb(37, 37, 65);
-    color: rgb(235, 235, 235);
-    border: 3px solid rgb(37, 37, 65);
-    border-radius: 14px;
-    margin: auto;
-    padding: 0.75rem 1rem;
-}
-
-.boton-galeria a:hover{
-    background-color: rgb(235, 235, 235);
-    color: rgb(37, 37, 65);
-}
-
-#adv{
-    margin: 1.75% 0 -1.5%;
-}
-
-.h2s{
+h2{
     margin-top: 2%;
     font-size: 30px;
+}
+
+p{
+    font-size: 18px;
 }
 
 .parrafous{
