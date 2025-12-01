@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 #principal{
     background-color: rgb(130, 194, 236);
     width: 100%;
@@ -73,7 +74,7 @@ a{
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
-nav a{
+.opciones-btn{
     background-color: rgb(221, 241, 245);
     margin: 1rem;
     border: 6px solid rgb(54, 92, 161);
@@ -83,7 +84,7 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
+.opciones-btn:hover{
     margin: 0;
     background-color: rgb(104, 159, 241);
     padding: 1rem 3rem;
@@ -121,6 +122,22 @@ p{
 
 .texto_hf{
     color: rgb(1, 0, 22);
+}
+
+#espacio{
+    width: 50%;
+    min-width: 360px;
+    height: 130px;
+    background-color: rgb(9, 23, 49);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#espacio a{
+    white-space: nowrap;
 }
 
 #ff{
